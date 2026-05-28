@@ -20,6 +20,8 @@ This document tracks the translation from Every's original Compound Engineering 
 | /ce-compound-refresh   | ce-compound-refresh | ✅   | Ported in Iteration 2 |
 | /ce-debug              | ce-debug          | ✅     | Ported in Iteration 2 |
 | /ce-optimize           | ce-optimize       | ✅     | Ported in Iteration 2 |
+| /ce-strategy           | ce-strategy       | ✅     | Ported Iteration 4 |
+| /ce-ideate             | ce-ideate         | ✅     | Ported Iteration 4 |
 
 ## Specialized Agents (Examples)
 
@@ -32,13 +34,18 @@ This document tracks the translation from Every's original Compound Engineering 
 | ce-performance-reviewer         | ce-performance-reviewer           | ✅     | Ported Iteration 3 |
 | ce-testing-reviewer             | ce-testing-reviewer               | ✅     | Ported Iteration 3 |
 | ce-maintainability-reviewer     | ce-maintainability-reviewer       | ✅     | Ported Iteration 3 |
+| ce-adversarial-reviewer         | ce-adversarial-reviewer           | ✅     | Ported Iteration 4 |
+| ce-data-integrity-guardian      | ce-data-integrity-guardian        | ✅     | Ported Iteration 4 |
 | ce-learnings-researcher         | ce-learnings-researcher           | ✅     | Ported Iteration 3 |
-| ce-best-practices-researcher    | ce-best-practices-researcher      | ⏳     | Planned next |
+| ce-best-practices-researcher    | ce-best-practices-researcher      | ✅     | Ported Iteration 4 |
+| ce-web-researcher               | ce-web-researcher                 | ✅     | Ported Iteration 4 |
 
 ## Full Mapping
 See the original plugin's component reference: https://github.com/EveryInc/compound-engineering-plugin/blob/main/plugins/compound-engineering/README.md
 
 We are prioritizing the highest-leverage skills first. New skills are added as `skills/ce-*-name/SKILL.md` following the Agent Skills specification.
+
+**Iteration 4 complete** — Added adversarial + data integrity reviewers, research agents (best-practices, web), strategy/ideate top-level skills, agent-native-architecture, and frontend-design. Total skills: **29+**.
 
 **Iteration 3 complete** — Git workflow (ce-commit, ce-worktree, ce-commit-push-pr), reviewers (performance, testing, maintainability), ce-learnings-researcher, and ce-review orchestrator added. Total skills: 21+.
 
