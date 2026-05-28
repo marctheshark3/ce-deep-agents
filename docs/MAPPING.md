@@ -14,7 +14,7 @@ This document tracks the translation from Every's original Compound Engineering 
 | /ce-brainstorm         | ce-brainstorm     | ✅     | Initial version complete |
 | /ce-plan               | ce-plan           | ✅     | Initial version complete |
 | /ce-work               | ce-work           | ✅     | Now ported |
-| /ce-review             | ce-review         | 🔄     | Needs orchestration skill (planned) |
+| /ce-review             | ce-review         | ✅     | Orchestrator ported in Iteration 3 |
 | /ce-compound           | ce-compound       | ✅     | Core skill complete |
 | /lfg                   | ce-lfg            | ✅     | Full autonomous workflow |
 | /ce-compound-refresh   | ce-compound-refresh | ✅   | Ported in Iteration 2 |
@@ -29,13 +29,18 @@ This document tracks the translation from Every's original Compound Engineering 
 | ce-security-reviewer            | ce-security-reviewer              | ✅     | Ported Iteration 2 |
 | ce-correctness-reviewer         | ce-correctness-reviewer           | ✅     | Ported Iteration 2 |
 | ce-architecture-strategist      | ce-architecture-strategist        | ✅     | Ported Iteration 2 |
+| ce-performance-reviewer         | ce-performance-reviewer           | ✅     | Ported Iteration 3 |
+| ce-testing-reviewer             | ce-testing-reviewer               | ✅     | Ported Iteration 3 |
+| ce-maintainability-reviewer     | ce-maintainability-reviewer       | ✅     | Ported Iteration 3 |
+| ce-learnings-researcher         | ce-learnings-researcher           | ✅     | Ported Iteration 3 |
 | ce-best-practices-researcher    | ce-best-practices-researcher      | ⏳     | Planned next |
-| ce-learnings-researcher         | ce-learnings-researcher           | ⏳     | Planned next |
 
 ## Full Mapping
 See the original plugin's component reference: https://github.com/EveryInc/compound-engineering-plugin/blob/main/plugins/compound-engineering/README.md
 
 We are prioritizing the highest-leverage skills first. New skills are added as `skills/ce-*-name/SKILL.md` following the Agent Skills specification.
+
+**Iteration 3 complete** — Git workflow (ce-commit, ce-worktree, ce-commit-push-pr), reviewers (performance, testing, maintainability), ce-learnings-researcher, and ce-review orchestrator added. Total skills: 21+.
 
 **Iteration 2 complete** — 8 new high-impact skills added (ce-work, ce-debug, ce-optimize, ce-compound-refresh + 4 key reviewers).
 
