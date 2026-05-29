@@ -44,9 +44,10 @@ Spawn parallel reviewers (security, simplicity, correctness, architecture, etc.)
 Always run `ce-compound` at the end.
 
 **Phase 6: Final Output**
-- PR description or summary
+- Rich PR description (matching original Compound Engineering style)
 - List of all created/updated files
 - Key learnings extracted
+- Link to new solution in `docs/solutions/`
 - "This task is now compounded. Future similar work will be significantly faster."
 
 ## Example Invocation

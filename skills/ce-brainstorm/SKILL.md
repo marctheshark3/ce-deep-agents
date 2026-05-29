@@ -34,8 +34,9 @@ version: 0.1.0
 - Propose 2–3 possible approaches with trade-offs
 
 **Phase 3: Output**
-- Generate a clean Markdown document (or self-contained HTML if requested)
-- Save to `docs/brainstorms/`
+- Generate the requirements document
+- **Default**: Clean, structured Markdown saved to `docs/brainstorms/`
+- **Optional**: Self-contained HTML (`output:html`) — matches original Compound Engineering behavior
 - End with: "Requirements document ready. Would you like me to run `ce-plan` next?"
 
 ## Output Format Example

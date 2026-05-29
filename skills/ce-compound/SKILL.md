@@ -44,7 +44,7 @@ Ask yourself (or spawn a sub-agent):
 - What decision rationale should future agents know?
 
 **Step 3: Create Structured Solution Document**
-Create a file in `docs/solutions/` with this format:
+Create a file in `docs/solutions/` with this format (matches original Compound Engineering style):
 
 ```markdown
 ---
@@ -77,6 +77,8 @@ confidence: high
 ...
 ```
 
+**Note**: This format is designed to match the original Compound Engineering compounding style for maximum compatibility and searchability.
+
 **Step 4: Update AGENTS.md**
 Append to the "Learned Patterns" section with a concise summary.
 
@@ -84,7 +86,7 @@ Append to the "Learned Patterns" section with a concise summary.
 If persistent memory is available, store the key insight with metadata.
 
 **Step 6: Final Message**
-"✅ Compounded successfully. This learning is now available to all future agents. 
+" ✅ Compounded successfully. This learning is now available to all future agents. 
 Next time we need auth, we’ll be 3x faster."
 
 ## Success Criteria
