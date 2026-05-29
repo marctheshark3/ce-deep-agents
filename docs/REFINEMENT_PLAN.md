@@ -73,20 +73,10 @@
 
 ---
 
-## Success Criteria for v0.2
-
-- New user can get productive within 10–15 minutes
-- All core skills feel polished and reliable
-- Clear examples exist for the main workflows
-- Documentation is comprehensive and easy to follow
-- The system feels "complete" rather than "in progress"
-
----
-
 ## Current Status (as of May 28, 2026)
 
-- **Scale achieved**: 36+ high-quality skills
-- **Next focus**: Quality, examples, and documentation
+- **Skills Refinement Complete**: All 36+ skills now have rich `references/` folders (checklists, patterns, examples, cross-references)
+- **Next focus**: Agents + Deeper Quality Improvements + Documentation & Examples
 - **Target**: v0.2 release in 1–2 weeks of focused work
 
 ---
